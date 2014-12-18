@@ -21,8 +21,8 @@ Or install it yourself as:
 ## Usage
 
 ### csv with multiline fields
-|aa<br>bb|cc|dd
-|-|-|-|
+|aa<br>bb|cc|dd|
+|:--|:--|:--|
 |ee|&nbsp;|&nbsp;|
 
 ```
@@ -37,8 +37,8 @@ p result[1] #=> ["ee"]
 ```
 
 ### csv with escaped double quotes
-|aa|bb|cc|dd
-|-|-|-|-|
+|aa|bb|cc|dd|
+|:--|:--|:--|:--|
 |ff|gg|hh|&nbsp;|
 |ii,jj|kk|&nbsp;|&nbsp;|
 
